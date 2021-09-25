@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Details"
+        android:background="@color/purple_500"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#FFF"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtName"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtType"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtImageUrl"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtOwner"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtAge"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtPhone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtEmail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtCity"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtDate"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Update"
+        android:textSize="21dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/btnUpdate"/>
+
+</LinearLayout>

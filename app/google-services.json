@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "768756193360",
+    "firebase_url": "https://sugarbloom-3a893-default-rtdb.firebaseio.com",
+    "project_id": "sugarbloom-3a893",
+    "storage_bucket": "sugarbloom-3a893.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768756193360:android:ffebfc83be5237c29f9955",
+        "android_client_info": {
+          "package_name": "com.example.petclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768756193360-iv8igb2v43vrri255nkirfgspvn113fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS_PUoiirKzzz5FZ9yl0jaA3_TDu6oock"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768756193360-iv8igb2v43vrri255nkirfgspvn113fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768756193360:android:0c53ddccf7b214b19f9955",
+        "android_client_info": {
+          "package_name": "com.example.sugarbloom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768756193360-iv8igb2v43vrri255nkirfgspvn113fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS_PUoiirKzzz5FZ9yl0jaA3_TDu6oock"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768756193360-iv8igb2v43vrri255nkirfgspvn113fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
