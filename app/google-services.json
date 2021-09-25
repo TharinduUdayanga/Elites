@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "6402533364",
+    "firebase_url": "https://foodapp-b4e04-default-rtdb.firebaseio.com",
+    "project_id": "foodapp-b4e04",
+    "storage_bucket": "foodapp-b4e04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6402533364:android:8ee06b430b27e6cce5fba1",
+        "android_client_info": {
+          "package_name": "com.example.food_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6402533364-nvc284g91g8vq245hvhg2pldrs629o4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIq5DdG0MiypQ12yUtYEI_WGPkZD8gcGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6402533364-nvc284g91g8vq245hvhg2pldrs629o4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6402533364:android:88b07f7df6b4a05fe5fba1",
+        "android_client_info": {
+          "package_name": "com.example.petclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6402533364-nvc284g91g8vq245hvhg2pldrs629o4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIq5DdG0MiypQ12yUtYEI_WGPkZD8gcGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6402533364-nvc284g91g8vq245hvhg2pldrs629o4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

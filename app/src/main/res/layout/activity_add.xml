@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo_add"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:transitionName="logo_add"
+        android:src="@drawable/buu"/>
+
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sugarbloom"
+        android:transitionName="tx"
+        android:textAlignment="viewStart"
+
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Add Product to Menu"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:transitionName="tx1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/input_design"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="Food Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_design"
+        android:gravity="center"
+        android:hint="Category"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/txtImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_design"
+        android:gravity="center"
+        android:hint="Image of Product"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/txtOwner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_design"
+        android:gravity="center"
+        android:hint="Food Price"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="Add Menu"
+        android:textAllCaps="false"
+        android:textSize="21dp" />
+
+
+
+
+</LinearLayout>
