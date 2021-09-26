@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "667575685561",
+    "firebase_url": "https://sugarbloom-f1698-default-rtdb.firebaseio.com",
+    "project_id": "sugarbloom-f1698",
+    "storage_bucket": "sugarbloom-f1698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667575685561:android:dff3b5ba079c5cd2326668",
+        "android_client_info": {
+          "package_name": "com.example.sugarbloom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667575685561-flst0vtg5o34695bfht7hfrld455vcal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEHo05jJQ9bG0D8DPzUyuohyR3iSBVcn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667575685561-flst0vtg5o34695bfht7hfrld455vcal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
