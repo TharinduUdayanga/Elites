@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "553751150730",
+    "firebase_url": "https://sugarbloom-873af-default-rtdb.firebaseio.com",
+    "project_id": "sugarbloom-873af",
+    "storage_bucket": "sugarbloom-873af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553751150730:android:555f8e00d140ce38616d73",
+        "android_client_info": {
+          "package_name": "com.example.petclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553751150730-mon1pcti32s3jami75quads0dut4t9m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAch9-NB0oBrlzCHm7IdemNaEtp16Nc5ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553751150730-mon1pcti32s3jami75quads0dut4t9m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

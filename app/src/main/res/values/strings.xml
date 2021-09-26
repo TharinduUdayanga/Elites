@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sugarbloom</string>
+    <string name="tvPaymentDetails">Payment Details</string>
+    <string name="etName">Name On Card</string>
+    <string name="etCardNumber">Card Number</string>
+    <string name="etCVV">CVV</string>
+</resources>
