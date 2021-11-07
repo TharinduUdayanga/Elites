@@ -49,6 +49,8 @@ public class MainAdapter extends FirebaseRecyclerAdapter<com.example.food_app.Ma
         holder.type.setText(model.getType());
         holder.price.setText(model.getPrice());
 
+
+
         Glide.with(holder.img.getContext())
                 .load(model.getPurl())
                 .placeholder(R.drawable.common_google_signin_btn_icon_dark)
@@ -57,11 +59,12 @@ public class MainAdapter extends FirebaseRecyclerAdapter<com.example.food_app.Ma
                 .into(holder.img);
 
 
-
+//Update Details
          holder.btnEdit.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
 
+                 //popup box
                  final DialogPlus dialogPlus = DialogPlus.newDialog(holder.img.getContext())
                          .setContentHolder(new ViewHolder(R.layout.update_popup))
                          .setExpanded(true,1800)
@@ -77,12 +80,15 @@ public class MainAdapter extends FirebaseRecyclerAdapter<com.example.food_app.Ma
                  EditText price = view.findViewById(R.id.txtOwner);
 
 
+
                  Button btnUpdate = view.findViewById(R.id.btnUpdate);
 
                  name.setText(model.getName());
                  type.setText(model.getType());
                  purl.setText(model.getPurl());
                  price.setText(model.getPrice());
+
+
 
 
 
@@ -100,6 +106,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter<com.example.food_app.Ma
                          map.put("price",price.getText().toString());
 
 
+                        //firebase connection
                          FirebaseDatabase.getInstance().getReference().child("Food")
                                  .child(getRef(position).getKey()).updateChildren(map)
                                  .addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -135,6 +142,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter<com.example.food_app.Ma
          });
 
 
+         //Delete Details
          holder.btnDelete.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
@@ -167,6 +175,8 @@ public class MainAdapter extends FirebaseRecyclerAdapter<com.example.food_app.Ma
          });
     }
 
+
+    //view
     @NonNull
     @Override
     public myViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -177,7 +187,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter<com.example.food_app.Ma
     class myViewHolder extends RecyclerView.ViewHolder {
 
         CircleImageView img;
-        TextView name, type,price;
+        TextView name, type,price,site;
 
         Button btnEdit,btnDelete;
 

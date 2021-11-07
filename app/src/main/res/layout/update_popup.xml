@@ -162,59 +162,65 @@
     </LinearLayout>
 
 
-
-
-
-
     <EditText
+        android:id="@+id/txtName"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="5dp"
         android:background="@drawable/input_design"
         android:gravity="center"
-        android:id="@+id/txtName"/>
-
+        android:hint="Food Name"
+        android:textStyle="bold" />
 
 
     <EditText
+        android:id="@+id/txtType"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="5dp"
         android:background="@drawable/input_design"
         android:gravity="center"
-        android:id="@+id/txtType"/>
-
+        android:hint="Category"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 
 
     <EditText
+        android:id="@+id/txtImageUrl"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="5dp"
         android:background="@drawable/input_design"
         android:gravity="center"
-        android:id="@+id/txtImageUrl"/>
-
+        android:hint="Image of Product"
+        android:textStyle="bold" />
 
 
     <EditText
+        android:id="@+id/txtOwner"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="5dp"
+        android:inputType="numberDecimal"
         android:background="@drawable/input_design"
         android:gravity="center"
-        android:id="@+id/txtOwner"/>
+        android:hint="Food Quantity"
+        android:textStyle="bold" />
+
+
+    
 
 
 

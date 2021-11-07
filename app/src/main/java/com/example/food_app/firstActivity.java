@@ -46,7 +46,7 @@ public class firstActivity extends AppCompatActivity {
 
             @Override
             public void run(){
-                Intent intent = new Intent(firstActivity.this,MainActivity.class);
+                Intent intent = new Intent(firstActivity.this,Category.class);
 
                 Pair[] pairs = new Pair[2];
                 pairs[0] = new Pair<View,String>(image, "logo_image");

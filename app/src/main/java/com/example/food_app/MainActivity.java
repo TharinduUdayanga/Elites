@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
     MainAdapter mainAdapter;
 
     FloatingActionButton floatingActionButton;
+
+
+    //insert details
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,6 +90,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+
+    //search
     private void txtSearch(String str)
     {
         FirebaseRecyclerOptions<MainModel> options =

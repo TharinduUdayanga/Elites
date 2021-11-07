@@ -3,4 +3,10 @@
     <string name="navigation_drawer_open">open navigation drawer</string>
     <string name="navigation_drawer_close">close navigation drawer</string>
     <string name="navi">close</string>
+    <string name="invalide_contact">invalid  price</string>
+    <string name="invalid_name">Please enter valid name</string>
+    <string name="invalid_type">Please enter valid category</string>
+    <string name="invalid_website">Please enter valid url</string>
+    <string name="invalid_image">Invalid image</string>
+    <string name="invalide_quantity">Please enter valid quantity</string>
 </resources>

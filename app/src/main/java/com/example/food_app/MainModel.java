@@ -15,6 +15,8 @@ public class MainModel {
         this.purl = purl;
         this.price = price;
 
+
+
     }
 
 
@@ -28,6 +30,8 @@ public class MainModel {
     public void getPrice(String price) {
         this.price = price;
     }
+
+
 
     public String getName() {
         return name;
